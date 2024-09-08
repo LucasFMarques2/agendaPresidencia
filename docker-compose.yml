@@ -1,13 +1,13 @@
 version: '3'
 services:
   backend:
-    build: ./backend
+    build: ./agenda-api
     ports:
       - "5150:5150"
     env_file:
-      - ./backend/.env
+      - ./agenda-api/.env
     volumes:
-      - ./backend:/app
+      - ./agenda-api:/app
       - /app/node_modules  
     command: sh -c "npx knex migrate:latest && npm start"
     depends_on:

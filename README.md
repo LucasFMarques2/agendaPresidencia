@@ -61,3 +61,5 @@ Para executar a aplicação em sua máquina local, siga os seguintes passos:
 
 
 Este README inclui uma descrição do projeto, as ferramentas utilizadas, as instruções de instalação e configuração, como rodar o projeto e as versões das depedencias com o `package.json`.
+
+Esse projeto foi desenvolvido por Lucas Freitas Marques. 
